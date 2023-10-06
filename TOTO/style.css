@@ -1,0 +1,114 @@
+html,body{margin:0px;
+padding:0px;}
+.Top
+{background-color: rgba(243, 241, 241, 0.879);
+display: flex;justify-content: space-around;align-items:center;
+font-family: 'Times New Roman', Times, serif;
+height:80px;
+position:sticky;border-bottom: 1px solid black;margin-bottom: 10px;opacity: 0.99;position:sticky;top: 0px;}
+.Mid
+{background-color:rgb(255, 255, 255)
+;display:flex;
+flex-wrap:wrap;}
+.Buttom
+{background-color: rgb(231, 231, 231);text-align: center;margin:50px 0px;height: 50px;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;}
+.All
+{background-color: rgb(255, 255, 255);max-width:900px;
+margin:auto;}
+.Logo{width: 100px;
+height:50px;}
+.logo
+{width:30px;
+height: 30px;
+margin-right:50px;}
+.left
+{display: inline-block;
+background-color: white;
+width:45%;
+}
+.right
+{display: inline-block;
+ background-color:rgb(255, 255, 255);;
+width: 50%;}
+.googlelogo
+{width:35%}
+.page
+{width:150%;}
+.menu{margin-left:200px;}
+.Menu
+{margin: 8px;
+color:inherit;
+ text-decoration:none;}
+.Menu:hover
+{border-bottom-style:solid;}
+ .inner
+ {width:70%;}
+ .text1
+ {display:block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border:none;
+    border-radius: 50px;
+background-color:lightgrey;
+width: 200px;
+height:10px;
+padding: 10px;
+}
+.Be
+{font-family: 'Times New Roman', Times, serif;
+font-size: 26px;}
+.text2
+{display: block;
+margin-bottom: 20px;
+border:none;
+border-radius: 50px;
+background-color: lightgrey;
+width: 200px;
+height:10px;
+padding: 10px}
+.signin
+{display: block;
+margin-left: 60px;
+margin-right: 50px;
+border-radius:50px;
+border: none;
+background-color: rgb(62, 158, 255);
+padding: 10px;
+color: white;
+margin-bottom: 15px;
+}
+.p
+{font-family: 'Times New Roman', Times, serif;}
+.for
+{text-decoration:none;
+color: inherit;
+font-family: 'Times New Roman', Times, serif;}
+.keep
+{display: inline;
+font-family: 'Times New Roman', Times, serif;}
+.mobileicon
+{display:none;}
+.mobilelogo
+{width:30px;height:30px;}
+@media
+(max-width:600px){
+    .Menu{display:none;}
+.mobileicon{display:block;}
+.left{width:80%;}
+.right
+{width: 100%;
+overflow: hidden;
+margin:0 -10px;}
+.inner
+{margin:0 auto;}
+}
+
+@media(max-width:376px){
+.Buttom
+{font-size:20px;
+ margin-top:10px;
+ padding:20px;
+width: 300px;}
+}
